@@ -1,0 +1,170 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("images/paper_bg.jpg");
+}
+.btn{
+	display: block;/* ブロック要素にする */
+	background: linear-gradient(#8CF952, #6EC43F);
+	height: 70px;
+	line-height: 70px;/* 高さと行の高さを合わせて、文字を縦の中央に */
+	margin: 5px auto;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 0 10px grey;
+}
+/* ===============================================================
+		ヘッダー
+=============================================================== */
+.header{
+	overflow: hidden;
+	height: 70px;
+	background: white;
+	border-top: 3px solid #b9d08b;
+}
+.header img{
+	float:left;
+	width: 200px;
+	margin: 13px 250px;
+}
+.header ul{
+	margin-top: 23px;
+	margin-left: 800px;
+}
+.header ul li{
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+.header ul li a{
+	text-decoration: none;
+	font-size: 15px;
+}
+.header ul li a:hover{
+	color: #b9d08b;
+}
+/* ===============================================================
+		アイキャッチ
+=============================================================== */
+.eyecatch{
+	height: 520px;
+	background-image: url("images/eye_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.eyecatch_inside{
+	width: 800px;
+	margin: 0 auto; /* Q背景が一緒に動いちゃう！！！！！！！！！！！！！*/
+	padding: 80px 0 0;
+	text-align: center;
+}
+.eyecatch_inside h1{
+	color: white;
+	font-size: 50px;
+}
+.btn_eyecatch{
+	width: 300px;
+}
+/* ===============================================================
+		サービス
+=============================================================== */
+.service{
+	text-align: center;
+}
+.service table{
+	margin: 50px auto;
+}
+.service th{
+	width: 300px;
+	height: 220px;
+	padding: 0 20px;
+}
+.service td{
+	width: 300px;
+	height: 64px;
+	padding: 0 20px;
+}
+.service_under{
+	margin: 5px 0;
+	height: 87px;
+}
+.service > p{
+	color: #E82774;
+}
+.btn_service{
+	width: 300px;
+}
+/* ===============================================================
+		コンテンツ
+=============================================================== */
+.contents{
+	overflow: hidden;
+	width: 1050px;
+	margin: 0 auto;
+	padding: 50px;
+}
+/* ===============================================================
+		コンテンツの中のコンテントレフト
+=============================================================== */
+.content_left{
+	float: left;
+	background: white;
+	border: 1px solid #d3d3d3;
+	width: 700px;
+	height: 640px;
+	padding: 10px;
+}
+.content_left h3{
+	border-bottom:1px dotted grey;
+}
+.content_left img{
+	display: block;
+	margin: 0 auto;
+}
+.content_left span{
+	font-weight: bold;
+}
+.content_left th{
+	text-align: left;
+	padding: 5px 0;
+}
+.btn_content_left{
+	width: 300px;
+}
+/* ===============================================================
+		コンテンツの中のコンテントライト
+=============================================================== */
+.content_right{
+	float: right;
+	background: white;
+	border: 1px solid #d3d3d3;
+	width: 270px;
+	height: 410px;
+	padding: 10px;
+}
+.content_right ul{
+	padding: 0;
+}
+.content_right li{
+	list-style: none;
+}
+.content_right li a{
+	display: block;
+	border-bottom:1px dotted grey;
+	text-decoration: none;
+	padding: 14px;
+	font-size: 13px;
+	color: black;
+}
+.content_right li a:hover{
+	background: #f5f5f5;
+}
+/* ===============================================================
+		フッター
+=============================================================== */
+.footer{
+
+}

@@ -1,0 +1,42 @@
+h1{
+  border-left: 10px solid black;
+  padding-left: 15px;
+  width: 400px;
+}
+
+h2{
+  border-left: 10px solid black;
+  border-bottom: 2px dashed black;
+  padding-left: 15px;
+  width: 400px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  border-bottom: 2px dashed black;
+  width: 400px;
+  padding: 5px;
+}
+
+li a{
+  text-decoration: none;
+  color: #4460AB;
+  font-weight: bold;
+}
+
+.btn{
+ border: 3px solid black;
+ background: blue;
+ color: white;
+ text-decoration: none;
+ padding: 5px 80px;
+}
+
+.marker{
+  background: yellow;
+  color: red;
+  font-weight: bold;
+}

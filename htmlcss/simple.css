@@ -1,0 +1,261 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Righteous', cursive, 'M PLUS Rounded 1c', sans-serif, '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    text-shadow: 1px 1px 0 grey;
+}
+.arrow{
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    z-index: -1;
+    color: white;
+}
+/* -------------------header------------------- */
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.header-menu ul li{
+	font-size: 200%;
+	display: inline-block;
+	margin: 0 10px;
+}
+.header-menu ul li a{
+	color: white;
+	position: relative;
+	transition: 0.3s;
+}
+.header-menu ul li a:after{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: white;
+	transition: 0.3s;
+	transform: translateX(-50%);
+}
+.header-menu ul li a:hover:after{
+	width: 100%;
+}
+/* -------------------background------------------- */
+.bg{
+	position: sticky;
+	top: 0;
+	z-index: -2;
+	width: 100%;
+}
+.context {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+}
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.area{
+    background: linear-gradient(to left, #3ec1d3, #178291);
+    width: 100%;
+    height: 100vh;
+}
+.circles li{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    opacity: 0;
+    bottom: 0;
+}
+.circles li:nth-child(1){
+    left: 5%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 5s;
+    animation-duration: 19s;
+}
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+.circles li:nth-child(3){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+.circles li:nth-child(4){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.circles li:nth-child(5){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+.circles li:nth-child(6){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+.circles li:nth-child(7){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+.circles li:nth-child(8){
+    left: 55%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 4s;
+    animation-duration: 15s;
+}
+.circles li:nth-child(9){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+.circles li:nth-child(10){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+.circles li:nth-child(11){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 4s;
+}
+.circles li:nth-child(12){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+    animation-duration: 15s;
+}
+@media screen and (max-width:600px){
+	.circles li:nth-child(12){
+		display: none;
+	}
+}
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+        border-radius: 5%;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+/* -------------------profile------------------- */
+.profile{
+	width: 95%;
+    height: 500px;
+	background: #f8f3d4;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px 5px black;
+}
+.profile h2{
+	color: #f6416c;
+	font-size: 400%;
+}
+.profile-inner table{
+	text-align: left;
+    color: #f6416c;
+    margin: 0 auto;
+}
+.profile-inner th{
+	width: 190px;
+	font-size: 200%;
+	vertical-align: top;
+}
+.profile-inner td{
+	width: 340px;
+	font-size: 150%;
+	vertical-align: top;
+}
+.profile-inner table p, .profile-inner table p{
+	position: relative;
+	display: inline-block;
+}
+.profile-inner table p:after, .profile-inner table p:after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: #f6416c;
+	transition: 0.3s;
+}
+.profile-inner table p:hover:after, .profile-inner table p:hover:after{
+	width: 100%;
+}
+.profile-inner span{
+	margin-left: 10px;
+	font-size: 10px;
+}
+/* -------------------space-1------------------- */
+.space-1{
+	width: 100%;
+	height: 500px;
+}
+/* -------------------portfolio------------------- */
+.portfolio{
+    width: 95%;
+	height: 500px;
+	background: #f8f3d4;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px 5px black;
+}
+.portfolio h2{
+    color: #f6416c;
+    font-size: 400%;
+}
+/* -------------------space-2------------------- */
+.space-2{
+	width: 100%;
+	height: 500px;
+}/* -------------------space-1------------------- */
+footer{
+	width: 100%;
+    height: 80px;
+    text-align: center;
+}
+small{
+    color: white;
+    line-height: 80px;
+    font-size: 120%;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+	background: #e0e0e0;
+}
+.flame1{
+	background: white;
+	width: 600px;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid #d3d3d3;
+}
+.risuta{
+	background: yellow;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.risumi{
+	font-weight: bold;
+}
+
+h2{
+	color: #800000;
+	font-size: 25px;
+	border-left: 5px solid #800000;
+	padding-left: 5px;
+}
+
+li{
+	border-bottom: 1px dotted black;
+	margin: 10px;
+}
+
+.link1{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #00008b;
+	color: white;
+	padding: 10px 0px;
+}

@@ -1,0 +1,26 @@
+.left-box{
+  background: red;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.right-box{
+  background: blue;
+  width: 300px;
+  height: 300px;
+  float: left;
+  /* position: fixed;
+  top: 100px;
+  left: 100px; */
+}
+/* .wrap{
+  background: yellow;
+  width: 700px;
+  overflow: hidden;
+} */
+.aaa{
+  background: green;
+  width: 300px;
+  height: 500px;
+  clear: both;
+}

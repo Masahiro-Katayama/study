@@ -1,0 +1,26 @@
+div{
+  border: 3px solid black;
+  background: red;
+  margin: 20px;
+}
+span{
+  border: 3px solid black;
+  background: blue;
+  margin: 20px;
+}
+
+
+
+.box{
+background:black no-repeat url() center / cover;
+/* positionが先　sizeが後 */
+/* background-color: balck;
+background-image: url('');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; */
+width: 100%;
+padding-top: 62%;
+
+
+}

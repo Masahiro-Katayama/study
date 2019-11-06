@@ -1,0 +1,134 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif, 'Righteous', cursive, '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: rgb(159,8,46);
+}
+body{
+   margin: 0;
+   padding: 0;
+   background: hsl(165,100%,35%);
+   background-image: url("imgs/parrot.jpg");
+   background-size: cover;
+   background-position: left bottom;
+   height: 700px;
+   overflow-wrap: break-word;
+}
+button, input, select, textarea{
+   font-family : inherit;
+}
+.input_outer{
+   border: 1px solid black;
+   width: 80%;
+   margin: 50px auto 30px auto;
+   font-size: 200%;
+   border-radius: 10px;
+   background: hsl(24,100%,78%);
+}
+.input_area{
+   border: 1px solid black;
+   width: 95%;
+   margin: 10px auto 0 auto;
+   text-align: center;
+   border-radius: 10px;
+}
+.input_text{
+   width: 80%;
+   border-style: none;
+   border-bottom: 1px solid black;
+   font-size: 100%;
+   border-radius: 10px;
+}
+.input_btn_outer{
+   text-align: right;
+   margin-right: 20px;
+}
+.input_btn{
+   background: hsl(354,100%,72%);
+   cursor: pointer;
+   font-size: 80%;
+   margin: 5px;
+}
+.input_btn:hover{
+   background: hsl(354,100%,65%);
+}
+.table_outer{
+   width: 100%;
+}
+.question_table{
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   border-spacing: 10px;
+}
+.top, .bottom{
+ border: 1px solid hsl(36,88%,38%);
+}
+.top{
+   position: relative;
+   font-size: 200%;
+}
+.top p{
+   margin: 5px auto 5px 5px;
+}
+.bottom{
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+tr:nth-child(odd){
+   background: hsla(59.2,100%,85.7%,.9);
+}
+tr:nth-child(even){
+   background:hsla(37.2,100%,82%,.9);
+}
+.clear {
+   cursor: pointer;
+   position: absolute;
+   top: -15px;
+   right: -15px;
+   font-size: 140%;
+   color: hsl(354,100%,72%);
+   animation: clear 3s linear infinite;
+}
+@keyframes clear{
+   0%{
+      transform: rotate(0deg);
+   }
+   100%{
+      transform: rotate(360deg);
+   }
+}
+.clear:hover{
+   color: hsl(354,100%,65%);
+}
+input[radio]{
+   width: 20px;
+}
+input[type=radio] {
+   display: none;
+}
+input[type="radio"]:checked + label {
+   background: hsl(354,100%,72%);
+   color: #ffffff;
+}
+.radio:hover {
+   background-color: hsl(24,100%,78%);
+}
+.radio {
+   margin: 10px;
+   width: 100px;
+   height: 45px;
+   color: hsl(0,100%,35%);
+   text-align: center;
+   line-height: 45px;
+   cursor: pointer;
+   border: 2px solid hsl(354,100%,72%);
+   border-radius: 5px;
+}
+.warning{
+ position: absolute;
+ top: 0;
+ left: 50px;
+ font-size: 120%;
+ text-decoration: underline;
+}

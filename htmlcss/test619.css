@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+}
+.red{
+  background: red;
+  border: 8px solid black;
+  font-size: 5px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.blue{
+  background: blue;
+  border-left: 8px double black;
+  border-right: 8px double black;
+  font-size: 15px;
+  font-weight: bold;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+}
+.green{
+  background: green;
+  border-top: 8px dashed black;
+  border-bottom: 8px dashed black;
+  font-size: 25px;
+  font-weight: bold;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+}
+.yellow{
+  background: yellow;
+  border-bottom: 8px dotted black;
+  font-size: 35px;
+  font-weight: bold;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+}

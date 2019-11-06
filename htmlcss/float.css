@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+.header{
+	background: red;
+	height: 80px;
+}
+.header:hover{
+	background: #800000;
+	height: 80px;
+}
+.container{
+	background: #dadada;
+}
+.content{
+	background: white;
+	height: 400px;
+	width: 1000px;
+	margin: 10px auto;
+}
+.leftbox{
+	background: green;
+	height: 400px;
+	width: 600px;
+	float: left;
+}
+.rightbox{
+	background: yellow;
+	height: 400px;
+	width: 300px;
+	float: right;
+}
+.footer{
+	background: black;
+	height: 200px;
+	color: white;
+}
+.overflow{
+	overflow: hidden;
+}

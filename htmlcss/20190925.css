@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  align-content: flex-end;
+  border: 3px solid green;
+  height: 500px;
+  font-size: 30px;
+}
+
+.outer{
+  border: 5px solid black;
+  width: 200px;
+  height: 100px;
+}

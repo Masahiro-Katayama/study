@@ -1,0 +1,22 @@
+#contact-form th {
+  background-color: #F8F8F8;
+  border-color: #CCCCCC #CCCCCC #CCCCCC #333333;
+  border-left: 3px solid #333333;
+  border-right: 1px dotted #CCCCCC;
+  border-style: solid dotted solid solid;
+  border-width: 1px 1px 1px 3px;
+  padding: 5px 8px;
+  width: 200px;
+}
+
+#contact-form td {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+  padding: 5px 8px;
+}
+
+.inquiry-content{
+  vertical-align: top;
+}
